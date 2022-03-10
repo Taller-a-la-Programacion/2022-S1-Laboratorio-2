@@ -1,21 +1,21 @@
 #NO MODIFICAR ESTE ARCHIVO
 
-import Laboratorio01;
+import Laboratorio02;
 import pytest;
 
     
 def test_lab_1():
-    assert Laboratorio01.calcularRenta(700000) == 0
+    assert Laboratorio02.elevarPotencia(2, 3) == 8
     
 def test_lab_2():
-    assert Laboratorio01.calcularRenta(1000000) == 18300
+    assert Laboratorio02.elevarPotencia(12, 2) == 144
     
 def test_lab_3():
-    assert Laboratorio01.calcularRenta(2000000) == 157000
+    assert Laboratorio02.calculadora(1, 4, 8) == 12
     
 def test_lab_4():
-    assert Laboratorio01.contadorDigitos(102039480, 0) == 3
+    assert Laboratorio02.calculadora(2, 4, 8) == -4
 
 def test_lab_5():
-    assert Laboratorio01.contadorDigitos(132033483, 3) == 4
+    assert Laboratorio02.calculadora(4, 4, 8) == 0.5
     
